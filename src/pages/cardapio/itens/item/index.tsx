@@ -1,11 +1,11 @@
-import styles from './Item.module.scss'
-import cardapio from '../itens.json'
-import classnames from 'classnames'
+import styles from './Item.module.scss';
+import cardapio from '../itens.json';
+import classnames from 'classnames';
 
 type Props = typeof cardapio[0]
 
 export default function Item (props: Props){
-  const {title, description, category, size, serving, price, photo } = props
+  const {title, description, category, size, serving, price, photo } = props;
   return(
     <div className={styles.item}>
       <div className={styles.item__imagem}>
@@ -35,5 +35,5 @@ export default function Item (props: Props){
         </div>
       </div>
     </div>
-  )
+  );
 }
