@@ -2,6 +2,7 @@ import cardapio from 'data/cardapio.json';
 import Item from './item';
 import styles from './Itens.module.scss';
 import { useEffect, useState } from 'react';
+import React from 'react';
 
 interface Props {
   busca: string;

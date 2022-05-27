@@ -5,6 +5,7 @@ import { useState } from 'react';
 import Filtros from './filtros';
 import Ordenador from './ordenador';
 import Itens from './itens';
+import React from 'react';
 
 export default function Cardapio (){
   const [busca, setBusca] = useState('');

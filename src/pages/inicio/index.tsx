@@ -1,5 +1,6 @@
 import cardapio from "data/cardapio.json";
 import styles from './Inicio.module.scss'
+import React from 'react';
 
 export default function Inicio (){
   let pratosRecomendados = [...cardapio]

@@ -1,6 +1,7 @@
 import styles from './Item.module.scss';
 import cardapio from 'data/cardapio.json';
 import classnames from 'classnames';
+import React from 'react';
 
 type Props = typeof cardapio[0]
 
