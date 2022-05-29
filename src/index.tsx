@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import 'normalize.css';
 import './index.css';
-import Router from './routes'
+import Router from './routes';
 
 
 const root = ReactDOM.createRoot(
