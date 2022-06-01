@@ -7,6 +7,7 @@ import PaginaPadrao from 'components/pagina-padrao'
 import Sobre from 'pages/sobre'
 import Footer from 'components/footer'
 import NotFound from 'pages/NotFound'
+import Prato from 'pages/prato'
 
 export default function AppRouter() {
   return (
@@ -20,6 +21,7 @@ export default function AppRouter() {
             <Route path="sobre" element={<Sobre />} />
           </Route>
           <Route path="*" element={<NotFound />} />
+          <Route path="prato/:id" element={<Prato />} />
         </Routes>
         <Footer />
       </Router>
