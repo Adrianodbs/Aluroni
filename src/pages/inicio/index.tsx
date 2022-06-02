@@ -12,7 +12,7 @@ export default function Inicio (){
   const navigate = useNavigate()
 
   function redirecionarParaDetalhes(prato: typeof cardapio[0]){
-    navigate(`/prato/${prato.id}`, {state: {...prato}, replace: true})
+    navigate(`/prato/${prato.id}`, {state: {prato}, replace: true})
   }
   return (
     <section>
