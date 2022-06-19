@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Aluroni/static/css/main.0b9365ea.css",
+    "main.js": "/Aluroni/static/js/main.029d4357.js",
+    "static/media/header.png": "/Aluroni/static/media/header.b657dd083e14f631a54c.png",
+    "static/media/nossa_casa.png": "/Aluroni/static/media/nossa_casa.3fce23b5f216aa3d377f.png",
+    "static/media/massa1.png": "/Aluroni/static/media/massa1.b54a937ecf33911a10be.png",
+    "static/media/massa2.png": "/Aluroni/static/media/massa2.b09406c9ad829e55deda.png",
+    "static/media/casa.png": "/Aluroni/static/media/casa.7ddc1385bed0c778a098.png",
+    "static/media/not_found.svg": "/Aluroni/static/media/not_found.0685ece04165b6481ed62af7fdc2f0ae.svg",
+    "static/media/logo.svg": "/Aluroni/static/media/logo.4aa691b6070b74b5f57b342792fde93d.svg",
+    "index.html": "/Aluroni/index.html",
+    "main.0b9365ea.css.map": "/Aluroni/static/css/main.0b9365ea.css.map",
+    "main.029d4357.js.map": "/Aluroni/static/js/main.029d4357.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0b9365ea.css",
+    "static/js/main.029d4357.js"
+  ]
+}
