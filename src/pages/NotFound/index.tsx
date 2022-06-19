@@ -2,10 +2,10 @@ import styles from './NotFound.module.scss';
 import {ReactComponent as NotFoundImage} from 'assets/not_found.svg';
 import classNames from 'classnames';
 import stylesTema from 'styles/Tema.module.scss';
-import {useNavigate} from 'react-router-dom'
+import {useNavigate} from 'react-router-dom';
 
 export default function NotFound (){
-  const navigate = useNavigate()
+  const navigate = useNavigate();
   return (
     <div className={classNames({
       [styles.container]: true,

@@ -10,10 +10,10 @@ export default function Inicio (){
   let pratosRecomendados = [...cardapio];
   pratosRecomendados = pratosRecomendados.sort(() => 0.5 - Math.random()).splice(0,3);
 
-  const navigate = useNavigate()
+  const navigate = useNavigate();
 
   function redirecionarParaDetalhes(prato: Prato){
-    navigate(`/prato/${prato.id}`, {state: {prato}, replace: true})
+    navigate(`/prato/${prato.id}`, {state: {prato}, replace: true});
   }
   return (
     <section>
@@ -37,10 +37,10 @@ export default function Inicio (){
       </div>
       <h3 className={stylesTema.titulo}>Nossa casa</h3>
       <div className={styles.nossaCasa}>
-          <img src={nossaCasa} alt="Casa do Aluroni" />
-          <div className={styles.nossaCasa__endereco}>
-            Rua Vergueiro, 3185 <br /> <br /> Vila Mariana -SP
-          </div>
+        <img src={nossaCasa} alt="Casa do Aluroni" />
+        <div className={styles.nossaCasa__endereco}>
+          Rua Vergueiro, 3185 <br /> <br /> Vila Mariana -SP
+        </div>
       </div>
     </section>
   );

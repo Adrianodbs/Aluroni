@@ -32,5 +32,5 @@ export default function Prato (){
         </div>
       </section>
     </PaginaPadrao>
-  )
+  );
 }
